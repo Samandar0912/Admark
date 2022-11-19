@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    max-width: 800px;
+    width: auto;
+    height: 930px;
+    margin: auto;
+    background-image: url(../images/bram-naus-5fvMWp1r2n0-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container .content .titles{
+    text-transform: uppercase;
+    text-align: left;
+    
+}
+
+.container .content .titles h1{
+    font-size: 50px;
+    color: #1A74C8;;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.container .content .titles h1 span{
+    font-size: 50px;
+    color: #023047;;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.container .content .titles h2{
+    color: #023047;
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.content .title-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #023047;
+    margin: 50px 0;
+    text-align: left;
+}
+.content .title-text span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #023047;
+    margin: 50px 0;
+    text-align: left;
+}
+
+.btn{
+    display: flex;
+    width: 230px;
+    height: 70px;
+    margin: auto;
+    background: #023047;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 3px;
+    border: none;
+    margin-top: 140px;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 0 15px #023047;
+}
+.btn img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+.points-box{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.points-box .points{
+    align-items: center;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #1A74C8;
+    margin: 4px;
+}
+.points-box .points:nth-child(1){
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: #023047;
+    margin: 4px;
+    box-shadow: 0 0 15px #023047;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        background-size:cover ;
+        background-repeat: no-repeat;
+    }
+    .content{
+        width: 80%;
+
+    }
+    .content .titles h1{
+        font-size: 26px !important;
+    }
+    .content .titles h2{
+        font-size: 26px !important;
+    }
+    .content .titles h1 span{
+        font-size: 26px !important;
+    }
+    .content p{
+        font-size: 16px !important;
+    }
+    .content p span{
+        font-size: 16px !important;
+    }
+    .content .btn{
+        font-size: 18px !important;
+        width: 160px;
+        height: 50px;
+        border-radius: 8px;
+        padding: 5px 30px !important;
+    }
+    .points-box{
+        width: 100%;
+        height: 10px;
+    }
+    
+    .points-box .points{
+        width: 10px;
+        height: 10px;
+    }
+    .points-box .points:nth-child(1){
+        width: 18px;
+        height: 18px;
+    }
+
+
+  }
+/* 
+    .container{
+        width: 100%;
+        background-size:cover ;
+        background-repeat: no-repeat;
+    }
+    .content{
+        width: 80%;
+
+    } 
+
+    .content .btn{
+        font-size: 18px !important;
+        width: 160px;
+        height: 50px;
+        border-radius: 8px;
+        padding: 5px 30px !important;
+    }
+    .points-box{
+        width: 100%;
+        height: 10px;
+    }
+    
+    .points-box .points{
+        width: 10px;
+        height: 10px;
+    }
+    .points-box .points:nth-child(1){
+        width: 18px;
+        height: 18px;
+    }
+
+
+*/
